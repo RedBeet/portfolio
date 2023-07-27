@@ -1,0 +1,137 @@
+a {
+    text-decoration: none;
+}
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard-Black';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+body{
+    background-image: linear-gradient(135deg, #CF46FF, #844AFF);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+#logo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#helloworld{
+    font-family: Pretendard-Black;
+    font-weight: 700;
+    font-size: 300px;
+    color: white;
+    line-height: 0.9em;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+#hello{
+    align-self: baseline;
+    opacity: 0;
+    left: -20%;
+    transition: all 1s;
+    position: relative;
+}
+#world{
+    align-self: end;
+    opacity: 0;
+    left: 20%;
+    transition: all 1s;
+    position: relative;
+}
+.block{
+    background-color: white;
+    height: 85vh;
+    width:85vw;
+    margin-top: 7.5vh;
+    margin-bottom: 7.5vh;
+    margin-left: 7.5vw;
+    margin-right: 7.5vw;
+    border-radius: 30px;
+    position: relative;
+    opacity: 0;
+    transition: all 0.8s;
+    font-family: Pretendard-Black;
+    font-weight: 700;
+    font-size: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.block_name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.block_txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.blockleft{
+    left: 100px;
+}
+.blockright{
+    left: -100px;
+}
+#name{
+    font-size: 200px;
+    background: linear-gradient(135deg, #CF46FF, #844AFF);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+#aidev{
+    font-size: 200px;
+    background: linear-gradient(135deg, #a4a4a4, #545454);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+#dg1s{
+    font-size: 100px;
+    text-align: center;
+    background: linear-gradient(135deg, #495f98, #e1a53c);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+#code{
+    font-size: 200px;
+    background: linear-gradient(135deg, #60A649, #468F4C);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+#velog{
+    font-size: 100px;
+    background: linear-gradient(135deg, #6fc69b, #2fb472);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+#medium{
+    font-size: 100px;
+    background: linear-gradient(135deg, #adadad, #151515, #000000);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+#insta{
+    font-size: 150px;
+    background: linear-gradient(135deg, #5666c3, #b245a6, #f4de6e);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+img{
+    padding: 1rem;
+}
